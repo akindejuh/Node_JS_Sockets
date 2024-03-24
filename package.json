@@ -1,0 +1,21 @@
+{
+  "name": "sockets",
+  "version": "1.0.0",
+  "description": "Testing Socket.io for real-time communication",
+  "main": "./src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon",
+    "start": "node ./src/app.js"
+  },
+  "author": "Gbenga2540",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.1",
+    "socket.io": "^4.7.5"
+  },
+  "devDependencies": {
+    "prettier": "^3.2.5"
+  }
+}
